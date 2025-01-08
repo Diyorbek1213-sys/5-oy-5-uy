@@ -111,7 +111,7 @@ btn && btn.addEventListener('click', function () {
 })
 
 // Vazifa: Formada bir matnli input va bir tugma bo‘lsin. Foydalanuvchi inputga o‘z ismini yozib, tugmani bossa, ismi sahifada alohida div element ichida ko‘rsatiladi.
-alert('1-vazifa') // inputni qiymatini boshqa divga qanday qilib kochirishni bilmadim kochirsam ishlamayapti boshqa qilib ham kochirib kordim
+// inputni qiymatini boshqa divga qanday qilib kochirishni bilmadim kochirsam ishlamayapti boshqa qilib ham kochirib kordim
 // const input = document.querySelector('.input')
 // const btn_1 = document.querySelector('.btn_1')
 // const neww = document.createElement('div')
@@ -123,8 +123,7 @@ alert('1-vazifa') // inputni qiymatini boshqa divga qanday qilib kochirishni bil
 //     newww.textContent = input.value
 // })
 
-// Vazifa: Sahifada ism va familiya yozilgan matnli div bo‘lsin. Yonida "Tahrirlash" tugmasi bo‘lsin. Tugma bosilganda, matn inputga o‘zgaradi va foydalanuvchi yangi qiymat kiritishi mumkin. "Saqlash" tugmasi bosilgandan so‘ng, matn inputdan o‘qilib, yana div ko‘rinishida aks etadi.
-alert('2-vazifa')
+// Vazifa: Sahifada ism va familiya yozilgan matnli div bo‘lsin. Yonida "Tahrirlash" tugmasi bo‘lsin. Tugma bosilganda, matn inputga o‘zgaradi va foydalanuvchi yangi qiymat kiritishi mumkin. "Saqlash" tugmasi bosilgandan so‘ng, matn inputdan o‘qilib, yana div ko‘rinishida aks etadi."2-vazifa"
 const div_2 = document.querySelector('.div_2')
 const p_1 = document.querySelector('.p_1')
 const btn_2 = document.querySelector('.btn_2')
@@ -144,8 +143,7 @@ button && button.addEventListener('click', function () {
     button.replaceWith(btn_2)
 })
 
-// Vazifa: Formada ikki ta parol kiritish maydoni (input) bo‘lsin: "Parol" va "Parolni tasdiqlash". Tugma bosilganda, agar ikkala parol bir-biriga teng bo‘lsa, foydalanuvchiga "Parol mos" degan xabar chiqsin, teng bo‘lmasa, "Parol mos emas" xabari chiqsin.
-alert('3-vazifa')
+// Vazifa: Formada ikki ta parol kiritish maydoni (input) bo‘lsin: "Parol" va "Parolni tasdiqlash". Tugma bosilganda, agar ikkala parol bir-biriga teng bo‘lsa, foydalanuvchiga "Parol mos" degan xabar chiqsin, teng bo‘lmasa, "Parol mos emas" xabari chiqsin."2-vazifa"
 const input_3 = document.querySelector('.input_2')
 const input_4 = document.querySelector('.input_3')
 const btn_3 = document.querySelector('.btn_3')
@@ -158,8 +156,7 @@ btn_3 && btn_3.addEventListener('click', function () {
     }
 })
 
-// Vazifa: Formada rang kiritish maydoni (color input) bo‘lsin. Foydalanuvchi rangni tanlagandan so‘ng, sahifada yangi div yaratiladi va tanlangan rang bilan bo‘yaladi.
-alert('4-vazifa')
+// Vazifa: Formada rang kiritish maydoni (color input) bo‘lsin. Foydalanuvchi rangni tanlagandan so‘ng, sahifada yangi div yaratiladi va tanlangan rang bilan bo‘yaladi."2-vazifa"
 const input_5 = document.querySelector('.input_4')
 const btn_4 = document.querySelector('.btn_4')
 const newwww = document.createElement('div')
@@ -178,8 +175,7 @@ btn_4 && btn_4.addEventListener('click', function () {
     }
 })
 
-// Vazifa: Sahifada bir matnli input va "Qo‘shish" tugmasi bo‘lsin. Foydalanuvchi inputga biror shahar nomini yozib, tugmani bossa, shahar nomi ro‘yxatga (ul ichida li) qo‘shiladi.
-alert('5-vazifa')
+// Vazifa: Sahifada bir matnli input va "Qo‘shish" tugmasi bo‘lsin. Foydalanuvchi inputga biror shahar nomini yozib, tugmani bossa, shahar nomi ro‘yxatga (ul ichida li) qo‘shiladi."2-vazifa"
 const input_6 = document.querySelector('.input_5')
 const btn_5 = document.querySelector('.btn_5')
 const ul = document.createElement('ul')
@@ -190,8 +186,7 @@ btn_5 && btn_5.addEventListener('click', function () {
     ul.append(li)
 })
 
-// Vazifa: Formada matnli input va "Xabar yuborish" tugmasi bo‘lsin. Tugma bosilgandan so‘ng, inputdagi matn sahifada yangi blokda ko‘rsatiladi va input maydoni tozalanadi.
-alert('6-vazifa')
+// Vazifa: Formada matnli input va "Xabar yuborish" tugmasi bo‘lsin. Tugma bosilgandan so‘ng, inputdagi matn sahifada yangi blokda ko‘rsatiladi va input maydoni tozalanadi."2-vazifa"
 const input_7 = document.querySelector('.input_6')
 const btn_6 = document.querySelector('.btn_6')
 const div_3 = document.querySelector('.div_3')
@@ -201,8 +196,7 @@ btn_6 && btn_6.addEventListener('click', function () {
     input_7.value = ''
 })
 
-// Vazifa: Formada yosh kiritish uchun input bo‘lsin. "Tekshirish" tugmasi bosilganda, foydalanuvchining yoshi 18 yoki undan yuqori bo‘lsa, sahifada "Kirishga ruxsat berildi", aks holda "Kirishga ruxsat berilmaydi" degan matn paydo bo‘lsin.
-alert('7-vazifa')
+// Vazifa: Formada yosh kiritish uchun input bo‘lsin. "Tekshirish" tugmasi bosilganda, foydalanuvchining yoshi 18 yoki undan yuqori bo‘lsa, sahifada "Kirishga ruxsat berildi", aks holda "Kirishga ruxsat berilmaydi" degan matn paydo bo‘lsin."2-vazifa"
 const input_8 = document.querySelector('.input_7')
 const btn_7 = document.querySelector('.btn_7')
 
@@ -220,8 +214,7 @@ btn_7 && btn_7.addEventListener('click', function () {
     }
 })
 
-// Vazifa: Formada matnli input bo‘lsin. Foydalanuvchi inputga "red", "green", yoki "blue" kabi rang nomini yozsa, sahifaning fon rangi o‘zgaradi.
-alert('8-vazifa')
+// Vazifa: Formada matnli input bo‘lsin. Foydalanuvchi inputga "red", "green", yoki "blue" kabi rang nomini yozsa, sahifaning fon rangi o‘zgaradi."2-vazifa"
 const input_9 = document.querySelector('.input_8')
 const btn_8 = document.querySelector('.btn_8')
 
@@ -239,8 +232,7 @@ btn_8 && btn_8.addEventListener('click', function () {
     }
 })
 
-// Vazifa: Formada ism va familiya kiritish uchun ikkita input bo‘lsin. "Qo‘shish" tugmasi bosilganda, kiritilgan ism va familiya ro‘yxatga qo‘shiladi.
-alert('9-vazifa')
+// Vazifa: Formada ism va familiya kiritish uchun ikkita input bo‘lsin. "Qo‘shish" tugmasi bosilganda, kiritilgan ism va familiya ro‘yxatga qo‘shiladi."2-vazifa"
 const input_10 = document.querySelector('.input_9')
 const input_11 = document.querySelector('.input_10')
 const btn_9 = document.querySelector('.btn_9')
@@ -256,7 +248,6 @@ btn_9 && btn_9.addEventListener('click', function () {
 })
 
 // Vazifa: Formada bir matnli input bo‘lsin. Foydalanuvchi inputga biror so‘z kiritganda, uning uzunligi (harflar soni) sahifada ko‘rsatiladi.
-alert('10-vazifa')
 const input_12 = document.querySelector('.input_11')
 const son = document.querySelector('.son')
 
@@ -268,13 +259,12 @@ input_12 && input_12.addEventListener('input', function () {
 })
 
 // Vazifa: Sahifada davlatlar ro‘yxati (ul) bo‘lsin. Formada "Saralash" tugmasi bo‘lsin. Tugma bosilganda, davlatlar ro‘yxati alifbo bo‘yicha qayta tartiblanadi.
-alert('11-vazifa') // sort ishlamadi negadir
+// sort ishlamadi negadir
 
-alert('12-vazifa') // ?
+// ?
 // Vazifa: Formada bir input va "Tasdiqlash" tugmasi bo‘lsin. Dastlab tugma faol bo‘lmasin (disabled). Inputga biror matn kiritilganda, tugma faollashsin.
 
 // Vazifa: Formada bir nechta input bo‘lsin (ism, familiya, email). "Tozalash" tugmasi bosilganda, barcha inputlar bo‘shatiladi.
-alert('13-vazifa')
 const input_13 = document.querySelector('.input_13')
 const input_14 = document.querySelector('.input_14')
 const input_15 = document.querySelector('.input_15')
@@ -287,7 +277,6 @@ btn_12 && btn_12.addEventListener('click', function() {
 })
 
 // Vazifa: Foydalanuvchi ro‘yxati (ul) va qidiruv inputi bo‘lsin. Foydalanuvchi qidiruv maydoniga biror ism yozganda, faqat shu ismga mos keladigan foydalanuvchi ko‘rsatiladi, qolganlari yashiriladi.
-alert('14-vazifa')
 const ul_2 = document.querySelector('.ul_2')
 const input_16 = document.querySelector('.input_16')
 const li_1 = document.querySelector('.li_1')
@@ -307,7 +296,6 @@ input_16 && input_16.addEventListener('input', function() {
 })
 
 // Vazifa: Sahifada matn ko‘rinishida bir div bo‘lsin. "Tahrirlash" tugmasi bosilganda, matn inputga aylansin va foydalanuvchi matnni tahrir qilishi mumkin. "Saqlash" tugmasi bosilganda, inputdagi matn yana div ko‘rinishida aks etsin.
-alert('15-vazifa')
 const div_4 = document.querySelector('.div_4')
 const btn_13 = document.querySelector('.btn_13')
 const input_17 = document.createElement('input')
