@@ -1,4 +1,3 @@
-alert('form')
 const firstName = document.getElementById('firstName')
 const lastName = document.getElementById('lastName')
 const date = document.getElementById('date')
@@ -13,85 +12,85 @@ const area = document.getElementById('area')
 const checkbox = document.getElementById('checkbox')
 const btn = document.getElementById('btn')
 
-function validate(firstName, lastName, date, phonenum, email, password, confirm, address, postal, select, area, checkbox) {
-    if (firstName.value.length < 2) { // qanday qilib faqat lotin harfni qabul qiladigan qilishni bilmadim
-        firstName.focus()
-        firstName.style.outlineColor = 'red'
-        alert("Ismni togri kiriting. Kamida 2 ta harf bolishi kerak va faqat lotin harflaridan foydalaning.")
-        return false
-    }
+// function validate(firstName, lastName, date, phonenum, email, password, confirm, address, postal, select, area, checkbox) {
+//     if (firstName.value.length < 2) { // qanday qilib faqat lotin harfni qabul qiladigan qilishni bilmadim
+//         firstName.focus()
+//         firstName.style.outlineColor = 'red'
+//         alert("Ismni togri kiriting. Kamida 2 ta harf bolishi kerak va faqat lotin harflaridan foydalaning.")
+//         return false
+//     }
 
-    if (lastName.value.length < 2) {
-        lastName.focus()
-        lastName.style.outlineColor = 'red'
-        alert("Familiyani togri kiriting.")
-        return false
-    }
+//     if (lastName.value.length < 2) {
+//         lastName.focus()
+//         lastName.style.outlineColor = 'red'
+//         alert("Familiyani togri kiriting.")
+//         return false
+//     }
 
-    if (phonenum.value.length > 15 || phonenum.value.length < 9) {
-        phonenum.focus()
-        phonenum.style.outlineColor = 'red'
-        alert("Telefon raqamini togri kiriting, masalan: +998901234567.")
-        return false
-    }
+//     if (phonenum.value.length > 15 || phonenum.value.length < 9) {
+//         phonenum.focus()
+//         phonenum.style.outlineColor = 'red'
+//         alert("Telefon raqamini togri kiriting, masalan: +998901234567.")
+//         return false
+//     }
 
-    if (email.value.length <= 0) {
-        email.focus()
-        email.style.outlineColor = 'red'
-        alert("Emailni togri kiriting.")
-        return false
-    }
+//     if (email.value.length <= 0) {
+//         email.focus()
+//         email.style.outlineColor = 'red'
+//         alert("Emailni togri kiriting.")
+//         return false
+//     }
 
-    if (password.value.length < 8) {
-        password.focus()
-        password.style.outlineColor = 'red'
-        alert("Parol kamida 8 ta belgidan iborat bolishi va katta harf, kichik harf, raqamni oz ichiga olishi kerak.")
-        return false
-    }
+//     if (password.value.length < 8) {
+//         password.focus()
+//         password.style.outlineColor = 'red'
+//         alert("Parol kamida 8 ta belgidan iborat bolishi va katta harf, kichik harf, raqamni oz ichiga olishi kerak.")
+//         return false
+//     }
 
-    if (confirm.value !== password.value) {
-        confirm.focus()
-        confirm.style.outlineColor = 'red'
-        alert("Parol va tasdiqlash bir xil bolishi kerak.")
-        return false
-    }
+//     if (confirm.value !== password.value) {
+//         confirm.focus()
+//         confirm.style.outlineColor = 'red'
+//         alert("Parol va tasdiqlash bir xil bolishi kerak.")
+//         return false
+//     }
 
-    if (address.value.length > 9) {
-        address.focus()
-        address.style.outlineColor = 'red'
-        alert("Manzilni togri kiriting. Kamida 10 ta belgi bolishi kerak.")
-        return false
-    }
+//     if (address.value.length > 9) {
+//         address.focus()
+//         address.style.outlineColor = 'red'
+//         alert("Manzilni togri kiriting. Kamida 10 ta belgi bolishi kerak.")
+//         return false
+//     }
 
-    if (postal.value.length > 6) {
-        postal.focus()
-        postal.style.outlineColor = 'red'
-        alert("Pochta indeksini faqat raqamlardan iborat qilib kiriting.")
-        return false
-    }
+//     if (postal.value.length > 6) {
+//         postal.focus()
+//         postal.style.outlineColor = 'red'
+//         alert("Pochta indeksini faqat raqamlardan iborat qilib kiriting.")
+//         return false
+//     }
 
-    if (area.value.length < 5) {
-        area.focus()
-        area.style.outlineColor = 'red'
-        alert("Qiziqishlaringizni kamida 5 ta belgi bilan yozing.")
-        return false
-    }
+//     if (area.value.length < 5) {
+//         area.focus()
+//         area.style.outlineColor = 'red'
+//         alert("Qiziqishlaringizni kamida 5 ta belgi bilan yozing.")
+//         return false
+//     }
 
-    if (!checkbox.checked) {
-        alert("Qoidalarga rozilik bildiring.")
-        return false
-    }
+//     if (!checkbox.checked) {
+//         alert("Qoidalarga rozilik bildiring.")
+//         return false
+//     }
 
-    return true
-}
+//     return true
+// }
 
 btn && btn.addEventListener('click', function () {
     event.preventDefault()
-    const isValid = validate(firstName, lastName, date, phonenum, email, password, confirm, address, postal, select, area, checkbox)
+    // const isValid = validate(firstName, lastName, date, phonenum, email, password, confirm, address, postal, select, area, checkbox)
 
-    if (!isValid) {
-        return;
-    }
+    // if (!isValid) {
+    //     return;
+    // }
 
     const user = {
         firstName: firstName.value,
